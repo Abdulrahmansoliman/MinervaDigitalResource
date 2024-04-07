@@ -1,0 +1,70 @@
+:root {
+    --minerva-blue: #2a5db0;
+    --minerva-light-blue: #77aaff;
+    --minerva-dark: #1d3461;
+    --minerva-light: #f4f4f4;
+    --minerva-text: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--minerva-text);
+    background-color: var(--minerva-light);
+}
+
+header {
+    background: var(--minerva-dark);
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 3px solid var(--minerva-blue);
+}
+
+.logo {
+    max-width: 120px;
+    margin-left: 20px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: var(--minerva-light-blue);
+}
+
+section {
+    padding: 20px;
+    margin: 40px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--minerva-dark);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
